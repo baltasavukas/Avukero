@@ -121,7 +121,7 @@
 
 #define ALLOW_DEBUG_COMMANDS
 
-#define CRYPTONOTE_NAME                         "bitmonero"
+#define CRYPTONOTE_NAME                         "Avukero"
 #define CRYPTONOTE_POOLDATA_FILENAME            "poolstate.bin"
 #define CRYPTONOTE_BLOCKCHAINDATA_FILENAME      "data.mdb"
 #define CRYPTONOTE_BLOCKCHAINDATA_LOCK_FILENAME "lock.mdb"
@@ -159,7 +159,7 @@ namespace config
   boost::uuids::uuid const NETWORK_ID = { {
 	0x78, 0x41, 0x76, 0x75, 0x6B, 0x61, 0x73, 0x78, 0x78, 0x41, 0x76, 0x75, 0x6B, 0x61, 0x73, 0x78
     } };
-  std::string const GENESIS_TX = ""; 
+  std::string const GENESIS_TX = "011401ff0001819501029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd088071210124e19151be8f7fd2e56d1f4576d61a4a375b0d9a206b5520b01a22e3f3345edb"; 
   uint32_t const GENESIS_NONCE = 10000;
 
   namespace testnet
@@ -189,7 +189,7 @@ namespace config
     boost::uuids::uuid const NETWORK_ID = { {
 	0x76, 0x41, 0x76, 0x75, 0x6B, 0x61, 0x73, 0x78, 0x78, 0x41, 0x76, 0x75, 0x6B, 0x61, 0x73, 0x78
       } }; // Bender's daydream
-    std::string const GENESIS_TX = "013c01ff0001ffffffffffff0302df5d56da0c7d643ddd1ce61901c7bdc5fb1738bfe39fbe69c28a3a7032729c0f2101168d0c4ca86fb55a4cf6a36d31431be1c53a3bd7411bb24e8832410289fa6f3b";
+    std::string const GENESIS_TX = "";
     uint32_t const GENESIS_NONCE = 10002;
   }
 }
